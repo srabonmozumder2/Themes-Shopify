@@ -22,8 +22,6 @@
 * ==========================================
 *
 */ -->
-
-<h6>hello</h6>
     <header>
         <div class="header-desktop">
             <div class="container fluid">
@@ -48,12 +46,11 @@
                             <div class="offcanvas-body">
                                 <div class="main-mobile-menu-responsive">
                                     <div class="mobile-menu-area">
-                                        <ul>
+                                        <ul class="mainmenu">
                                             <li class="submenu-container submenu--megamenu"><a href="#"
                                                     class="strong   vertical-menu-item">
                                                     <img src="assets/img/themes-icon-1.svg" alt="">
                                                     <span>Dog</span>
-
                                                     <div class="vertical-menu-item-icon">
                                                         <svg class="theme-icon" width="12" height="12"
                                                             viewBox="0 0 12 12" fill="none"
@@ -64,6 +61,19 @@
                                                         </svg>
                                                     </div>
                                                 </a>
+                                                    <ul class="submenu">
+                                                    <li class="menu-title-area"><a href="">DOG</a></li>
+                                                        <li><a href="">Dog Food <svg class="theme-icon" width="12" height="12"
+                                                            viewBox="0 0 12 12" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                d="M8.79289 6.20711L5 2.41421L6.41421 1L11.6213 6.20711L6.41421 11.4142L5 10L8.79289 6.20711Z"
+                                                                fill="#142C73"></path>
+                                                        </svg></a></li>
+                                                        <li><a href="">Dog supplies</a></li>
+                                                        <li><a href="">Health & wellness</a></li>
+                                                        <li><a href="">Shop by brand</a></li>
+                                                    </ul>
                                             </li>
                                             <li class="submenu-container submenu--megamenu"><a href="#"
                                                     class="strong   vertical-menu-item">
@@ -108,8 +118,6 @@
                                                     class="strong   vertical-menu-item">
                                                     <img src="assets/img/pet-services.svg" alt="">
                                                     <span>Pet services</span>
-                                                    <!-- <img class="vertical-menu-item-icon" src="assets/img/right-charvon.svg"
-                                                    alt=""> -->
                                                     <div class="vertical-menu-item-icon">
                                                         <svg class="theme-icon" width="12" height="12"
                                                             viewBox="0 0 12 12" fill="none"
@@ -119,7 +127,14 @@
                                                                 fill="#142C73"></path>
                                                         </svg>
                                                     </div>
-                                                </a></li>
+                                                </a>
+                                                <ul class="submenu">
+                                                    <li class="menu-title-area"><a href="">Pet services</a></li>
+                                                    <li><a href="">Grooming</a></li>
+                                                    <li><a href="">Veterinary services</a></li>
+                                                    <li><a href="">Pets hotel</a></li>
+                                                </ul>
+                                            </li>
 
                                             <li class="submenu-container submenu--megamenu"><a href="#"
                                                     class="strong   vertical-menu-item">
@@ -696,7 +711,7 @@
             <div class="top-spacing-normal">
                 <h2 class="text-center">Best customer service 🐶</h2>
             </div>
-            <div class="row gy-4">
+            <div class="row gy-4 justify-content-center">
                 <div class="col-lg-4  col-md-4 col-sm-6">
                     <div class="slider-component-icon">
                         <div class="icon-banners-area">
@@ -2194,7 +2209,7 @@
 
     <section  class="shopify-section">
         <div class="container">
-            <div class="row">
+            <div class="row gy-4">
                 <div class="col-lg-3">
                     <div class="footer-headdig">
                         <h5>CORPORATE</h5>
@@ -2257,10 +2272,31 @@
                     </div>
                     <div class="footer-menu-content">
                         <p>Sign up for our e-mail and be the first who know our special offers!</p>
-                        <form action="">
                             <div class="newsletter-terms">
                                 <p>By clicking the button you agree to the <a href=""><strong>Privacy Policy</strong></a>  and  <a href="#"><strong>Terms and Conditions</strong></a></p>
                             </div>
+                            <!-- <div class="main-vertical-menu">
+                                <div class="field field-with-icon">
+                                    <div class="p-1 bg-light mb-4 input-filed">
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <button id="button-addon2" type="submit"
+                                                    class="btn btn-link text-dark"><svg class="theme-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M16.0859 4H3.91545L10.0007 8.73294L16.0859 4ZM2 5.04393V16H18V5.04495L10.0007 11.2667L2 5.04393ZM0 18V2H20V18H0Z" fill="#142C73"></path>
+                                                        </svg></button>
+                                            </div>
+                                            <input type="search" placeholder="Enter please your e-mail"
+                                                aria-describedby="button-addon2"
+                                                class="form-control border-0 bg-light" required>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+                        <form action="" class="footer-input-field">   
+                            <label class="custom-field one">
+                                <input type="text" placeholder=" "/>
+                                <span class="placeholder">Enter please your e-mail</span>
+                              </label>
                         </form>
                     </div>
                     <div class="footer-social">
