@@ -140,7 +140,9 @@ a.strong.vertical-menu-item img{
 img.vertical-menu-item-icon {
   margin-left: 70px;
 }
-
+.vertical-menu-container.show{
+  display: block;
+}
 .vertical-menu-container{
   position: absolute;
   width: 20%;
@@ -149,6 +151,7 @@ img.vertical-menu-item-icon {
   /* overflow-y: auto;    */
   /* max-width: 355px;
   min-width: 253px; */
+  display: none;
 }
 .vertical-menu-item {
   display: flex;
@@ -324,15 +327,15 @@ ul.unstyle-ul.megamenu-childs li a {
   text-decoration: none;
   padding-top: 10px;
 }
-
+/* 
 .mega-menu-container {
   position: relative;
 }
 
-/* li.submenu-container.submenu--megamenu .has-sub-menu:hover .mega-menu{
+li.submenu-container.submenu--megamenu .has-sub-menu:hover .mega-menu{
   opacity: 1;
 } */
-.megamenu-container{
+.mega-menu {
   width: 720px;
   background-color: white;
   height: auto;
@@ -344,39 +347,44 @@ ul.unstyle-ul.megamenu-childs li a {
   padding-right: 10px;
   padding-bottom: 12px;
   border-radius: 7px;
-  opacity: 1;
-  transition: all ease 0.5s;
-}
-li.submenu-container.submenu--megamenu .has-sub-menu:hover .megamenu-container{
-  display: block;
-  left: 100%;
-  opacity: 1;
-  visibility: visible;
-  transition: all ease 0.5s;
-}
-/* .mega-menu {
-  width: 720px;
-  background-color: white;
-  height: auto;
-  position: absolute;
-  left: 110%;
-  top: 0px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 12px;
-  border-radius: 7px;
-  opacity: 1;
+  opacity: 0;
+  visibility: hidden;
   transition: all ease 0.5s;
   z-index: -1;
-} */
-/* li.submenu-container a.has-sub-menu:hover .mega-menu{
+} 
+ li.submenu-container.submenu--megamenu:hover .mega-menu{
   display: block;
   left: 100%;
   opacity: 1;
   visibility: visible;
   transition: all ease 0.5s;
+  z-index: 1;
+}
+/* .megamenu-container{
+  width: 720px;
+  background-color: white;
+  height: auto;
+  position: absolute;
+  left: 110%;
+  top: 0px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 12px;
+  border-radius: 7px;
+  opacity: 0;
+  transition: all ease 0.5s;
+  z-index: 1;
+}
+li a.strong.vertical-menu-item.has-sub-menu:hover .megamenu-container.mega-menu{
+  display: inline-block;
+  left: 93%;
+  opacity: 1;
+  visibility: visible;
+  transition: all ease 0.5s;
+  z-index: 1;
 } */
+
 .image-hover-scaling-image img {
   border-radius: 7px;
 }
@@ -459,13 +467,14 @@ li.submenu-container.submenu--megamenu {
   position: absolute;
   background-color: white;
   left: 110%;
-  width: 100%;
+  width: 90%;
   padding-top: 15px;
   padding-bottom: 15px;
   bottom: 65px;
   border-radius: 7px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   opacity: 0;
+  visibility: hidden;
   transition: all ease 0.5s;
   /* z-index: -1; */
 }
@@ -505,8 +514,9 @@ li.simple-submenu::after{
 }
 li.simple-submenu:hover::after {
   margin-top: 2px;
-  width: 60%;
+  width: 50%;
 }
+
 /* ///////////PET SERVICES SUB MENU END//////////// */
 
 /*
@@ -529,8 +539,8 @@ li.simple-submenu:hover::after {
 }
 .marquee{
   overflow: hidden;
-  padding-top: 55px;
-  padding-bottom: 40px;
+  padding-top: 45px;
+  padding-bottom: 30px;
   background-color: #deefff;
   margin-top: 30px;
 }
@@ -834,7 +844,7 @@ section.shopify-section{
   position: relative;
   padding: 25px 20px;
   width: 100%;
-  height: 100%;
+  height: 90%;
 }
 h4.icon-banners-title{
   color: #142c73;
@@ -890,6 +900,9 @@ p.icon-banners-peragraph b{
 .collection-list-title h5 {
   font-size: 17px;
   font-weight: 700;
+}
+.collection-list-section-titel h2{
+  color: #142C6A;
 }
 a.main-collection-list-area {
   display: inline-block;
@@ -987,6 +1000,9 @@ a.favorites-collection:hover .favorites-collection-icons path{
   height: 100%;
   width: 100%;
 }
+.inner-brand-logo{
+  text-align: center;
+}
 a.all-brands-area:hover .inner-brand-logo img{
   display: inline-block;
   transition: all ease 0.3s;
@@ -997,6 +1013,9 @@ a.all-brands-area:hover .inner-brand-logo img{
 
 
 /* <!--////////////////// 😻 TOP PRODUCTS OF THIS WEEK START//////////////////--> */
+.main-product-title h2{
+  color: #142C6A;
+}
 #main-products{
   display: flex;
   gap: 20px;
@@ -1388,7 +1407,9 @@ a.inner-image-banner-puppy-area {
 }
 .inner-banner-content-area {
   position: absolute;
-  top: 65px;
+  top: 25%;
+  width: 400px;
+  max-width: 300px;
 } 
 .image-banner-buttons span{
   background-color: #142C6A;
@@ -1541,7 +1562,7 @@ ul.footer-menu-area li a {
   font-weight: 300;
 }
 .footer-menu-content p {
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 300;
 }
 .footer-social {
@@ -1693,26 +1714,18 @@ ul.footer-menu-area li:hover::after {
 .custom-field.two input:focus {
   background-size: 100% 0.15em, 100% 0.1em, 100%;
 }
-/* form.footer-input-field {
-  position: relative;
-}
-.field-icon {
-  position: absolute;
-  top: 30px;
-  left: 15px;
-} */
 /* <!--////////////////// 🐕 FOOTER AREA END  //////////////////--> */
 
 
 
-/*========================MEDIA QUARY=========================*/
+/*========================MEDIA QUARY RESPONSIVE=========================*/
 
 @media screen and (min-width: 992px) {
-  .col-lg-3{
+  main#MainContent .col-lg-3{
     flex: 0 0 auto;
     width: 22% !important;
   }
-  .col-lg-9 {
+  main#MainContent .col-lg-9 {
     flex: 0 0 auto;
     width: 78% !important;
 }
@@ -1721,7 +1734,7 @@ ul.footer-menu-area li:hover::after {
   width: 29% !important;
 }
 }
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 991.99px) {
   .header__icons__customer img {
     min-width: 20px;
     /* width: 25px; */
@@ -1783,6 +1796,7 @@ div#main-products-card{
 }
  .page-container{
   width: 200px;
+  /* margin-top: 15px; */
  }
  .page-container-two {
   width: 200px;
@@ -1792,13 +1806,17 @@ div#main-products-card{
 }
 .page-container-four {
   width: 200px;
+  margin-top: 15px;
 }
 .page-container-five {
   width: 200px;
+  margin-top: 15px;
 }
 .inner-banner-content-area{
   position: absolute;
-  bottom: 0;
+  top: 100%;
+  /* padding-top: 200px; */
+  margin: auto !important;
 }
 h3.image-banner-heading-inner{
   color: #142C6A;
@@ -1809,7 +1827,43 @@ button.btn.btn-warning.dog-shop-area{
 .footer-social {
   margin-top: 10px;
 } 
+section.shopify-section{
+  margin-top: 30px;
 }
+.top-spacing-normal h2{
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+.pour-favorites-title h2{
+  padding-top: 15px;
+}
+.main-product-title h2 {
+  padding-top: 25px;
+  padding-bottom: 25px !important;
+}
+.health-and-welling-services-heading.pb-5 {
+  margin-top: 160px;
+}
+.card.product-card-area:hover .overlay-outer{
+  transform: none;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+}
+.image-banner-buttons-inner span{
+  width: 200px;
+}
+.image-banner-buttons span{
+  width: 200px;
+}
+.image-banner-buttons.pt-4 {
+  padding-top: 10px !important;
+}
+.image-banner-buttons-inner.pt-4{
+  padding-top: 10px !important;
+}
+
 
 @media screen and (max-width: 767px) {
   .main-card-body-area .card{
@@ -1819,13 +1873,13 @@ button.btn.btn-warning.dog-shop-area{
     border: none;
     width: 49%;
 }
-/* .col-lg-6.col-md-6.kitten-area {
-  margin-top: 120px;
-} */
-/* .inner-banner-content-area {
-  position: relative;
-  top: 444px;
-} */
+section.shopify-section {
+  margin-top: 40px;
+}
+
+.mobile-screen-bar i{
+  font-size: 19px;
+}
 .image-banner-buttons span{
   width: 100%;
   background-color: #ffd701;
@@ -1854,6 +1908,21 @@ button.btn.btn-warning.dog-shop-area{
   padding-right: 10px;
 }
 
+.col-lg-6.col-md-6.kitten-area {
+  margin-top: 110px !important;
+  margin-bottom: 110px;
+}
+.inner-brand-logo img{
+  height: 100%;
+  width: 90%;
+}
+.main-brands-title h2{
+  padding-bottom: 30px;
+}
+.main-product-title h2 {
+  padding-bottom: 15px !important;
+}
+
 }
 
 @media screen and (max-width: 575px) {
@@ -1863,7 +1932,7 @@ button.btn.btn-warning.dog-shop-area{
   .inner-brand-logo img {
     transition: all ease 0.3s;
     height: auto;
-    width: 40%;
+    width: 90%;
     display: flex;
     margin: auto;
 }
@@ -1906,6 +1975,21 @@ div#main-products .card {
   font-weight: 700;
 } 
 
+.slider-component-icon:hover:before{
+  transform: none;
+}
+a.main-collection-list-area:hover{
+  transform: none;
+}
+a.favorites-collection:hover .favorites-collection-image img{
+  transform: none;
+}
+.health-and-welling-slider:hover{
+  transform: none;
+}
+.blog-posts:hover .blog-posts-img img{
+  transform: none;
+}
   /* .favorites-collection-icons::before {
     content: "";
     position: absolute;
@@ -1931,4 +2015,17 @@ div#main-products .card {
   width: 20px;
   height: 20px;
 } */
+}
+
+@media screen and (max-width: 425px) {
+.header__heading-logo img {
+  max-width: 125px;
+  min-width: 100px;
+}
+.map-img img{
+  height: 250px;
+}
+.inner-map-area{
+  height: 250px;
+}
 }
