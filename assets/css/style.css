@@ -8,6 +8,12 @@ a{
 img {
   max-width: 100%;
 }
+
+        /*====================================================================================================
+                                                    STYLE.CSS CODE START
+        ====================================================================================================*/
+
+
 /* ///////HEADER LOGO START///////// */
 .header-desktop {
   background-color: white;
@@ -183,6 +189,9 @@ li.submenu-container.submenu--megamenu:hover {
   border-radius: 5px;
 }
 
+.input-group input {
+  padding: 0 !important;
+}
 /*
 *
 * ==========================================
@@ -304,7 +313,7 @@ li.menu-title-area a {
   gap: 10px;
 }
 a.submenu-item.megamenu-item span {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 600;
   color: #142c73;
   text-transform: uppercase;
@@ -699,6 +708,7 @@ p.shop-cart-side-content {
 .mt-4.cart-drawer {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 15px;
   padding-left: 40px;
   flex-wrap: wrap;
@@ -736,6 +746,7 @@ button.btn.btn.cat-shop-area {
   color: white;
   font-weight: 600;
   padding: 7px 24px;
+  margin-bottom: 15px;
 }
 
 button.btn.btn-warning.dog-shop-area{
@@ -1715,7 +1726,549 @@ ul.footer-menu-area li:hover::after {
   background-size: 100% 0.15em, 100% 0.1em, 100%;
 }
 /* <!--////////////////// 🐕 FOOTER AREA END  //////////////////--> */
+ /*====================================================================================================
+                                             STYLE.CSS CODE END
+ ====================================================================================================*/
 
+
+                      
+/*====================================================================================================
+                                                                    CONTACT.CSS CODE START
+====================================================================================================*/
+.hero-contact-page {
+  background-color: #ffd701;
+  padding-top: 110px;
+  padding-bottom: 110px;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.subheadding h5{
+  text-align: center;
+  color: #142c73;
+  font-size: 17px;
+  font-weight: 700;
+}
+.wrapper-contact-page-area h1 {
+  color: #142c73;
+  text-align: center;
+}
+.description-section {
+  text-align: center;
+}
+.description-section strong{
+  font-weight: 600;
+}
+.description-section p {
+  color: #142c73;
+  font-weight: 300;
+  font-size: 19px;
+}
+
+
+/* <!-- //////////////////////Let's chat 💬 Start//////////////////////// --> */
+
+.input-container {
+	padding-bottom: 1em;
+}
+.left-inner-addon {
+    position: relative;
+}
+.left-inner-addon input {
+    padding-left: 40px !important; 
+}
+.left-inner-addon img {
+    position: absolute;
+    padding: 20px 12px;
+    pointer-events: none;
+}
+.right-inner-addon {
+    position: relative;
+}
+.right-inner-addon input {
+    padding-right: 35px !important;
+}
+.right-inner-addon img {
+    position: absolute;
+    right: 0px;
+    padding: 12px 12px;
+    pointer-events: none;
+}
+
+.left-and-right-inner-addon {
+    position: relative;
+}
+.left-and-right-inner-addon input {
+    padding-right: 35px !important;
+    padding-left: 35px !important;
+}
+.left-and-right-inner-addon i.left {
+    position: absolute;
+    padding: 12px 12px;
+    pointer-events: none;
+}
+.left-and-right-inner-addon i.right {
+    position: absolute;
+    right: 0px;
+    padding: 12px 12px;
+    pointer-events: none;
+}
+.right-inner-addon-b {
+    position: relative;
+}
+.right-inner-addon-b input {
+    padding-right: 35px !important;
+}
+.right-inner-addon-b i {
+    position: absolute;
+    right: 0px;
+    padding: 9px 12px;
+    pointer-events: none;
+}
+input {
+    width: 100%;
+		padding: 1em !important;
+		margin: 0em !important;
+		box-sizing: border-box;
+}
+
+.contact-form-heading {
+  text-align: center;
+}
+.wrepper-input-flied-area .col-12{
+  display: flex;
+  justify-content: center;
+}
+/* ////////////////button////////////// */
+.button-68 {
+  appearance: none;
+  backface-visibility: hidden;
+  background-color: #27ae60;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: rgba(39, 174, 96, .15) 0 4px 9px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: normal;
+  line-height: 1.5;
+  outline: none;
+  overflow: hidden;
+  padding: 13px 60px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transform: translate3d(0, 0, 0);
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.button-68:hover {
+  background-color: #1e8449;
+  opacity: 1;
+  transform: translateY(0);
+  transition-duration: .35s;
+}
+
+.button-68:active {
+  transform: translateY(2px);
+  transition-duration: .35s;
+}
+
+.button-68:hover {
+  box-shadow: rgba(39, 174, 96, .2) 0 6px 12px;
+} 
+/* //////////////button end//////////*/
+/* <!-- //////////////////////Let's chat 💬 END//////////////////////// --/> */
+
+
+.vertical-menu-about-us-page.show{
+  display: none;
+}
+.vertical-menu-about-us-page{
+  display: none;
+}
+.vertical-menu-container.vertical-menu-about-us-page.add{
+  display: block;
+}
+
+
+/* <!-- /////////////////////////MARQUEE START///////////////////////////////// --> */
+.marquee.contact-page {
+  margin-top: 70px;
+}
+
+/* <!-- /////////////////////////MARQUEE END///////////////////////////////// --> */
+/*====================================================================================================
+                                   CONTACT.CSS CODE END
+  ====================================================================================================*/
+
+  /*====================================================================================================
+                                   ABOUT US.CSS CODE START
+  ====================================================================================================*/
+
+.main-about-ua-page{
+  background-color: #ffd701;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 100px;
+  padding-left: 70px;
+  padding-right: 70px;
+  border-radius: 10px;
+}
+.services-image img {
+  width: 60%;
+  height: auto;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  right: 0;
+  margin: auto;
+}
+.services-image{
+  height: 200px;
+}
+.marquee.about-us-page{
+  margin-top: 280px;
+}
+div#MainContent .col-lg-3{
+  width: 22% !important;
+}
+
+.vertical-menu-about-us-page.show{
+  display: none;
+}
+.vertical-menu-about-us-page{
+  display: none;
+}
+.vertical-menu-container.vertical-menu-about-us-page.add{
+  display: block;
+}
+.services-and-solitions-headding h1 {
+  width: 57%;
+  color: #142c73;
+  margin: auto;
+}
+.services-and-solitions-peragraph p {
+  width: 60%;
+  margin: auto;
+  margin-top: 20px;
+  color: #142c73;
+  font-weight: 300;
+}
+/*<!-- ///////////////Since our founding in 2010, START//////////////////// --> */
+.founding-food-img img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  -o-transform: scale(0.9);
+  transition: all ease 0.4s;
+}
+.founding-food-headding h2 a {
+  font-size: 32px;
+  color:#142c73;
+}
+.our-time-join-button a.btn.btn{
+  background-color: #142c73;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 10px 15px;
+}
+.founding-food-peragraph p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #142C6A;
+  margin-top: 15px;
+}
+.founding-food-area:hover .founding-food-img img{
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transition: all ease 0.4s;
+  -webkit-transition: all ease 0.4s;
+  -moz-transition: all ease 0.4s;
+  -ms-transition: all ease 0.4s;
+  -o-transition: all ease 0.4s;
+}
+.founding-food-area {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.cat-img-headding h1 a {
+  font-size: 32px;
+  color: #142C6A;
+  margin-bottom: 15px;
+}
+.cat-img-peragraph p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #142C6A;
+  margin-top: 15px;
+}
+.cat-img img{
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transition: all ease 0.4s;
+  -webkit-transition: all ease 0.4;
+  -moz-transition: all ease 0.4;
+  -ms-transition: all ease 0.4;
+  -o-transition: all ease 0.4;
+  transform: scale(0.9);
+}
+.cat-img-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.cat-img-area:hover .cat-img img{
+  transform: scale(1.1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transition: all ease 0.4s;
+  -webkit-transition: all ease 0.4s;
+  -moz-transition: all ease 0.4s;
+  -ms-transition: all ease 0.4s;
+  -o-transition: all ease 0.4s;
+}
+.cat-img-button a {
+  background-color: #ffd701;
+  color: #142c73;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px 20px;
+}
+.substantially-product {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.product-headding h2 a {
+  font-size: 31px;
+  color: #142C6A;
+}
+.dailevery-product-description {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.description-peragraph p{
+  color: #142C6A;
+}
+.dailevery-man-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  -o-transform: scale(0.9);
+  transition: all ease 0.4s;
+  -webkit-transition: all ease 0.4s;
+  -moz-transition: all ease 0.4s;
+  -ms-transition: all ease 0.4s;
+  -o-transition: all ease 0.4s;
+}
+.substantially-product:hover .dailevery-man-img img{
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transition: all ease 0.4s;
+  -webkit-transition: all ease 0.4s;
+  -moz-transition: all ease 0.4s;
+  -ms-transition: all ease 0.4s;
+  -o-transition: all ease 0.4s;
+}
+/* <!-- ///////////////Since our founding in 2010, end//////////////////// --> */
+
+/* <!-- ///////////////We provide a lot of services Start//////////////////// --> */
+.provide-title h2 {
+  margin-top: 100px;
+  margin-bottom: 60px;
+  color: #142c73;
+}
+h4.Grooming-heading-text a {
+  text-align: center;
+  color: rebeccapurple;
+}
+.Grooming-description p {
+  font-size: 15px;
+  text-align: center;
+  color: #142c73;
+}
+.main-Grooming-card a img{
+  transition: all ease 0.4s;
+  -webkit-transition: all ease 0.4s;
+  -moz-transition: all ease 0.4s;
+  -ms-transition: all ease 0.4s;
+  -o-transition: all ease 0.4s;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.inner-provide-of-services:hover .main-Grooming-card a img{
+  display: inline-block;
+  transition: all ease 0.4s;
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -webkit-transition: all ease 0.4s;
+  -moz-transition: all ease 0.4s;
+  -ms-transition: all ease 0.4s;
+  -o-transition: all ease 0.4s;
+}
+h4.Grooming-heading-text a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  margin-top: 2px;
+  background-color: #142c73;
+  transition: width .5s;
+  margin: auto;
+}
+
+.inner-provide-of-services:hover h4.Grooming-heading-text a::after {
+  margin-top: 2px;
+  width: 50%;
+}
+
+/* <!-- ///////////////We provide a lot of services End//////////////////// --> */
+
+/* ////////////////🐶 A waggy-followed welcome to the most loved online pet supplies store! start//////////////////// */
+
+.inner-about-us-page-area {
+  margin-top: 70px;
+}
+
+.waggy-main-about-ua-page{
+  background-color: #142C73;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 100px;
+  padding-left: 70px;
+  padding-right: 70px;
+  border-radius: 10px;
+}
+.waggy-services-image img {
+  width: 60%;
+  height: auto;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  right: 0;
+  margin: auto;
+}
+.waggy-services-image{
+  height: 200px;
+}
+.marquee.waggy-about-us-page{
+  margin-top: 280px;
+}
+.waggy-services-and-solitions-headding h1 {
+  width: 77%;
+  color: #ffffff;
+  margin: auto;
+}
+.waggy-services-and-solitions-peragraph p {
+  width: 60%;
+  margin: auto;
+  margin-top: 20px;
+  color: #ffffff;
+  font-weight: 300;
+}
+.waggy-followed-button button.btn.btn a{
+  background-color: #ffd701;
+  color: #142C73 !important;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+/* ////////////////🐶 A waggy-followed welcome to the most loved online pet supplies store! end//////////////////// */
+
+/* <!-- ///////////////////////////GAT IN TOUCH START///////////////////////////// --> */
+.get-touch-title h2 {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 60px;
+}
+section.main-get-touch-area {
+  margin-top: 300px;
+} 
+.get-touch-card {
+  text-align: center;
+}
+.get-touch-heading h4{
+  color: #142c73;
+}
+.get-touch-heading p{
+  font-size: 19px;
+  font-weight: 300;
+}
+.get-touch-heading a{
+  text-decoration: underline;
+}
+.get-touch-heading a:hover{
+  text-decoration: none;
+}
+.get-touch-title h2{
+  color: #142c73;
+  font-size: 35px;
+}
+.marquee.minion-marquee{
+  margin-top: 70px;
+}
+/* <!-- ///////////////////////////GAT IN TOUCH END///////////////////////////// --> */
+  /* *====================================================================================================
+                                   ABOUT US.CSS CODE END
+  ====================================================================================================*/ 
 
 
 /*========================MEDIA QUARY RESPONSIVE=========================*/
@@ -1822,7 +2375,7 @@ h3.image-banner-heading-inner{
   color: #142C6A;
 }
 button.btn.btn-warning.dog-shop-area{
-  margin-bottom: 8px;
+  margin-bottom: 15px;
 }
 .footer-social {
   margin-top: 10px;
@@ -1863,7 +2416,57 @@ section.shopify-section{
 .image-banner-buttons-inner.pt-4{
   padding-top: 10px !important;
 }
+.marquee.about-us-page{
+  margin-top: 250px;
+}
+.main-about-ua-page{
+  padding-top: 50px;
+}
+.services-and-solitions-headding h1{
+  width: 100%;
+}
 
+.founding-food-area{
+  flex-direction: column;
+  justify-content: center;
+}
+.founding-food-content {
+  text-align: center;
+}
+.cat-img-area .col-lg-6{
+  text-align: center;
+}
+.cat-img-area{
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+.substantially-product{
+  flex-direction: column;
+  justify-content: center;
+}
+.substantially-product .col-lg-6{
+  text-align: center;
+}
+.dailevery-product-description{
+  display: flex;
+  justify-content: center;
+}
+section.main-get-touch-area{
+  margin-top: 100px;
+}
+.waggy-services-image img{
+  width: 100%;
+}
+.services-image img{
+  width: 100%;
+}
+.services-image{
+  margin-top: 30px;
+}
+.waggy-services-image{
+  margin-top: 30px;
+}
+}
 
 @media screen and (max-width: 767px) {
   .main-card-body-area .card{
@@ -1922,7 +2525,27 @@ section.shopify-section {
 .main-product-title h2 {
   padding-bottom: 15px !important;
 }
-
+.overlay-outer img{
+  height: 100% !important;
+  border-radius: 10px;
+}
+.main-products-card-body-area.products-list-two{
+  text-align: center;
+}
+.products-badge{
+  left: 35px;
+}
+.overlay-outer{
+  height: 100%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.marquee.about-us-page{
+  margin-top: 150px;
+}
 }
 
 @media screen and (max-width: 575px) {
@@ -1949,19 +2572,55 @@ div#main-products .card {
 }
 
 .page-container{
-  width: 300px;
+  width: 74%;
  }
  .page-container-two {
-  width: 300px;
+  width: 74%;
 }
 .page-container-three {
-  width: 300px;
+  width: 74%;
 }
 .page-container-four {
-  width: 300px;
+  width: 74%;
 }
 .page-container-five {
-  width: 300px;
+  width: 74%;
+}
+ul.image-small-list-three.mt-2{
+  padding-bottom: 20px;
+}
+.image-small-list-item-three img{
+  width: 40px;
+}
+.image-small-list-item-three.active img{
+  width: 40px;
+}
+.image-small-list-item-two img{
+  width: 40px;
+}
+.image-small-list-item-two.active img{
+  width: 40px;
+}
+ul.image-small-list-two.mt-2{
+  padding-bottom: 20px;
+}
+.image-small-list-item.active img{
+  width: 40px;
+}
+.image-small-list-item img{
+  width: 40px;
+}
+.image-small-list-item-four img{
+  width: 40px;
+}
+.image-small-list-item-four.active img{
+  width: 40px;
+}
+.image-small-list-item-five img{
+  width: 40px;
+}
+.image-small-list-item-five.active img{
+  width: 40px;
 }
 .content h2 {
   font-size: 25px;
@@ -1990,6 +2649,18 @@ a.favorites-collection:hover .favorites-collection-image img{
 .blog-posts:hover .blog-posts-img img{
   transform: none;
 }
+.main-about-ua-page{
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.waggy-main-about-ua-page{
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.founding-food-headding h2 a{
+  font-size: 25px;
+}
+
   /* .favorites-collection-icons::before {
     content: "";
     position: absolute;
@@ -2027,5 +2698,8 @@ a.favorites-collection:hover .favorites-collection-image img{
 }
 .inner-map-area{
   height: 250px;
+}
+.health-and-welling-services-heading.pb-5{
+  margin-top: 0;
 }
 }

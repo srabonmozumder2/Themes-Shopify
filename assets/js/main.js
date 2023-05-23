@@ -1,7 +1,10 @@
+    /*====================================================================================================
+                       MAIN.JS CODE START
+====================================================================================================*/
 $(window).scroll(function() {    
     var scroll = $(window).scrollTop();
 
-    if (scroll >= 200) {
+    if (scroll >= 400) {
         $('.header-desktop').addClass("active")
         $(".vertical-menu-container").removeClass('show')
         console.log('true') 
@@ -118,3 +121,34 @@ $(document).ready(function () {
  });
  
 /* <!-- /////////////ORTHOPEDIC FIVE END////////// --> */
+
+    /*====================================================================================================
+                       MAIN.JS CODE END
+====================================================================================================*/
+
+
+/*====================================================================================================
+                       ABOUT US.JS CODE END
+====================================================================================================*/    
+$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 400) {
+        $('.header-desktop').addClass("active")
+        $(".vertical-menu-about-us-page").removeClass('hide')
+    } else {
+        $('.header-desktop').removeClass("active")
+    };
+});
+  $(document).ready(function(){
+    $(".vertical-menu__button.btn.btn-primary.vertical-wrepper-button").click(function(){
+      $(".vertical-menu-container.vertical-menu-about-us-page").toggleClass("add");
+    });
+  });
+
+
+
+
+/*====================================================================================================
+                       ABOUT US.JS CODE END
+====================================================================================================*/
