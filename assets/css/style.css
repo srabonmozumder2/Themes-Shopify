@@ -13,7 +13,40 @@ img {
                                                     STYLE.CSS CODE START
         ====================================================================================================*/
 
+/* ==========/////////=============
+          PRELODAR START
+============//////////============== */
+.prelodar{
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  inset: 0;
+  background: white;
+  z-index: 999999;
+}
+.wrepper-loader {
+border: 10px solid #f3f3f3;
+border-radius: 50%;
+border-top: 10px solid #3498db;
+width: 60px;
+height: 60px;
+-webkit-animation: spin 2s linear infinite;
+animation: spin 2s linear infinite;
+position: absolute;
+top: 250px;
+}
+@-webkit-keyframes spin {
+0% { -webkit-transform: rotate(0deg); }
+100% { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+0% { transform: rotate(0deg); }
+100% { transform: rotate(360deg); }
+}
 
+/* ==========/////////=============
+        PRELODAR END
+============//////////============== */
 /* ///////HEADER LOGO START///////// */
 .header-desktop {
   background-color: white;
@@ -1058,6 +1091,208 @@ a.all-brands-area:hover .inner-brand-logo img{
 a:hover .overlay {
   opacity: 1;
 }
+
+/* //////TWO START///// */
+.overlay-two {
+  background-image: url(/assets/img/7_1.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  transition: all 0.4s ease-in-out 0s;
+  border-radius: 10px;
+}
+a:hover .overlay-two {
+  opacity: 1;
+}
+/* ////////TWO END//////// */
+/* ////// OVERLAY THREE START//// */
+.overlay-three {
+  background-image: url(/assets/img/27_1.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  transition: all 0.4s ease-in-out 0s;
+  border-radius: 10px;
+}
+
+a:hover .overlay-three {
+  opacity: 1;
+}
+/* //////OVERLAY THREE END//// */
+
+/* ////// OVERLAY FOUR START//// */
+.overlay-four {
+  background-image: url(/assets/img/24_1.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  transition: all 0.4s ease-in-out 0s;
+  border-radius: 10px;
+}
+
+a:hover .overlay-four {
+  opacity: 1;
+}
+/* //////OVERLAY FOUR END//// */
+/* ////// OVERLAY FIVE START//// */
+.overlay-five {
+  background-image: url(/assets/img/8_1.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  transition: all 0.4s ease-in-out 0s;
+  border-radius: 10px;
+}
+
+a:hover .overlay-five {
+  opacity: 1;
+}
+/* //////OVERLAY FIVE END//// */
+/* ////// OVERLAY SIX START//// */
+.overlay-six {
+  background-image: url(/assets/img/20_1.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  transition: all 0.4s ease-in-out 0s;
+  border-radius: 10px;
+}
+
+a:hover .overlay-six {
+  opacity: 1;
+}
+/* //////OVERLAY SIX END//// */
+/* ////// OVERLAY SEVEN START//// */
+.overlay-seven {
+  background-image: url(/assets/img/22_1.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  transition: all 0.4s ease-in-out 0s;
+  border-radius: 10px;
+}
+
+a:hover .overlay-seven {
+  opacity: 1;
+}
+/* //////OVERLAY SEVEN END//// */
+/* ////// OVERLAY EIGHT START//// */
+/* .overlay-eight {
+  background-image: url(/assets/img/19_1.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  transition: all 0.4s ease-in-out 0s;
+  border-radius: 10px;
+}
+
+a:hover .overlay-eight {
+  opacity: 1;
+} */
+/* //////OVERLAY EIGHT END//// */
+/* ////// OVERLAY NING START//// */
+.overlay-ning {
+  background-image: url(/assets/img/14_1.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  transition: all 0.4s ease-in-out 0s;
+  border-radius: 10px;
+}
+
+a:hover .overlay-ning {
+  opacity: 1;
+}
+/* //////OVERLAY NING END//// */
+/* ////// OVERLAY TEN START//// */
+.overlay-ten {
+  background-image: url(/assets/img/17_1.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  transition: all 0.4s ease-in-out 0s;
+  border-radius: 10px;
+}
+
+a:hover .overlay-ten {
+  opacity: 1;
+}
+/* //////OVERLAY TEN END//// */
+
+
+
 .content-details {
   position: absolute;
   text-align: center;
@@ -1494,6 +1729,10 @@ a.product-view-details span {
 }
 a.product-view-details.btn-medium.btn-medium path {
   fill: rgba(198, 195, 202, 0.61);
+}
+.modal-content{
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 /* /////////////Large plastic carrier cage for cats and dogs FIRST START//////////// */
@@ -1942,9 +2181,6 @@ ul.footer-menu-area li:hover::after {
   width: 50%;
 }
 
-
-
-
 .footer-headdig h5 {
   color: #142c73;
   font-size: 18px;
@@ -1956,9 +2192,12 @@ ul.footer-menu-area li:hover::after {
 .newsletter-terms p a:hover{
   text-decoration: none;
 }
-
-
-
+div#accordionFlushExample{
+  display: none;
+}
+h5.footer-heading{
+  color: #082886;
+}
 .custom-field {
   position: relative;
   font-size: 14px;
@@ -2460,6 +2699,14 @@ h4.Grooming-heading-text a {
   text-align: center;
   color: #142c73;
 }
+.main-Grooming-card{
+  overflow: hidden;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
 .main-Grooming-card a img{
   transition: all ease 0.4s;
   -webkit-transition: all ease 0.4s;
@@ -2600,40 +2847,7 @@ section.main-get-touch-area {
   /* *====================================================================================================
                                    ABOUT US.CSS CODE END
   ====================================================================================================*/ 
-/* ==========/////////=============
-          PRELODAR START
-============//////////============== */
-  /* .page-prelodar{
-    position: fixed;
-    display: flex;
-    justify-content: center;
-    inset: 0;
-    background: white;
-    z-index: 999999;
-}
-.page-loader {
-  border: 10px solid #f3f3f3;
-  border-radius: 50%;
-  border-top: 10px solid #3498db;
-  width: 60px;
-  height: 60px;
-  -webkit-animation: spin 2s linear infinite;
-  animation: spin 2s linear infinite;
-  position: absolute;
-  top: 250px;
-}
-@-webkit-keyframes spin {
-  0% { -webkit-transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(360deg); }
-}
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-} */
 
-/* ==========/////////=============
-          PRELODAR END
-============//////////============== */
 
  /* *====================================================================================================
                                    BLOG PAGE.CSS CODE START
@@ -2775,14 +2989,38 @@ h4.blog-posts-heading.blog-page-headding::after {
   width: 80%;
   margin: auto;
 }
+.blog-posts-img{
+  overflow: hidden;
+  border-radius: 9px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  -ms-border-radius: 9px;
+  -o-border-radius: 9px;
+}
 
 /* *====================================================================================================
                                    BLOG PAGE.CSS CODE END
   ====================================================================================================*/ 
 
 
-
-
+  /* //////////////ACCORDION/////////// */
+  .accordion-item:last-of-type .accordion-button.collapsed{
+    border: none;
+    padding: 0;
+  }
+  .accordion-button:focus{
+    box-shadow: none;
+  }
+  .accordion-button:not(.collapsed){
+    color: black;
+    background-color: white;
+    padding: 0;
+    box-shadow: none;
+  }
+  div#accordionFlushExample {
+    padding: 20px 1px;
+    border-bottom: 1px solid #082886;
+}
 
 /*========================MEDIA QUARY RESPONSIVE=========================*/
 
@@ -2974,8 +3212,16 @@ section.main-get-touch-area{
 .waggy-services-image{
   margin-top: 30px;
 }
-
-
+.marquee.blog-marquee-area {
+  margin-top: 150px;
+}
+.ProductInfo-quickadd-template{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.add-to-cart-button{
+  padding: 9px 56px;
+}
 }
 
 @media screen and (max-width: 767px) {
@@ -3059,6 +3305,27 @@ section.shopify-section {
 .input-tield{
   width: 100% ;
 }
+.marquee.blog-marquee-area{
+  margin-top: 20px;
+}
+.health-and-welling-services-heading.pb-5{
+  margin-top: 20px;
+}
+.footer-social{
+  display: none;
+}
+div#accordionFlushExample{
+  display: block;
+}
+li.footer-menu-list-item a path{
+  fill: #082886;
+}
+.footer-form-content-area {
+  display: none;
+}
+/* .custom-field.one input{
+  width: 100% !important;
+} */
 }
 
 @media screen and (max-width: 575px) {
@@ -3197,5 +3464,14 @@ a.favorites-collection:hover .favorites-collection-image img{
 }
 .health-and-welling-services-heading.pb-5{
   margin-top: 0;
+}
+.add-to-cart-button {
+  padding: 9px 0px;
+}
+.preooduct-modal img{
+  width: 100%;
+}
+.description-section p{
+  font-size: 13px;
 }
 }
