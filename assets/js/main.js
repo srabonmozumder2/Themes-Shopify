@@ -212,6 +212,13 @@ $(window).on('load', function() {
     $('.prelodar').delay(350).fadeOut('slow');
 })
 
+
+
+
+  $(".user-header-dropdown-icon").click(function(){
+    $(".dropdown-menu-area").toggleClass("active");
+  });   
+
 /* ==========/////////=============
            PRELODAR END
 ============//////////============== */
