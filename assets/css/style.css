@@ -3017,11 +3017,11 @@ h4.blog-posts-heading.blog-page-headding::after {
 
 /*========================DROPDOWN START=========================*/
 .dropdown-menu-area {
-  position: absolute;
+  position: fixed;
   background-color: white;
   z-index: 9;
   /* right: 135px; */
-  right: 109px;
+  right: 135px;
   top: 55px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   border-radius: 4px;
@@ -3038,7 +3038,7 @@ h4.blog-posts-heading.blog-page-headding::after {
   transition: 0.3s ease-in-out;
 }
 
-.profile-log ul {
+.profile-log ul{
   padding: 0;
   position: relative;
 }
@@ -3046,8 +3046,7 @@ h4.blog-posts-heading.blog-page-headding::after {
   padding-top: 0;
   padding-bottom: 0;
 }
-.profile-log::after{
-  content: "";
+.profile-log ul::after{
   content: "";
   width: 0;
   height: 0;
@@ -3057,7 +3056,7 @@ h4.blog-posts-heading.blog-page-headding::after {
   position: absolute;
   top: -10px;
   z-index: 999999;
-  right: 38px;
+  right: 11px;
 }
 li.nav-link {
   font-size: 14px;
