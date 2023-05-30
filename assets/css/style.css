@@ -2288,6 +2288,112 @@ h5.footer-heading{
   background-size: 100% 0.15em, 100% 0.1em, 100%;
 }
 /* <!--////////////////// 🐕 FOOTER AREA END  //////////////////--> */
+.dropdown-content {
+  position: absolute;
+  background-color: white;
+  z-index: 9;
+  left: 43px;
+  top: 55px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 4px;
+  opacity: 0;
+  visibility: hidden;
+  top: 70px;
+  transition: 0.3s ease-in-out;
+  margin-top: -170px;
+  margin-left: -55px;
+}
+.dropdown-content.footer-active{
+  display: block;
+  opacity: 1;
+  visibility: visible;
+  top: 50px;
+  transition: 0.3s ease-in-out;
+  z-index: 999;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.world-selacet-menu li{
+  list-style: none;
+}
+.wrepper-footer-area{
+  margin-top: 100px;
+} 
+span.fotter-button.btn.btn.main-button-user{
+  padding: 9px 16px;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #142C6A;
+  margin-left: -14px;
+}
+
+.myDropdown-log ul{
+  padding: 0;
+  position: relative;
+}
+.dropdown-menu.dropdown-menu-end.show{
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.myDropdown-log li.nav-link {
+  font-size: 13px;
+  display: flex;
+  gap: 10px;
+  padding: 8px 27px;
+  color: #142C6A;
+  font-weight: 400;
+  align-items: center;
+  cursor: pointer;
+}
+.myDropdown-log li.nav-link:hover{
+  color: #142C6A;
+  background-color: rgba(247, 225, 225, 0.377);
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+}
+span.fotter-button.btn.btn.main-button-user p{
+  font-size: 10px;
+  color: #142C6A;
+  margin: 0;
+  text-align: left;
+}
+span.fotter-button.btn.btn.main-button-user svg {
+  position: absolute;
+  left: 160px;
+  top: 32px;
+}
+.wrepper-footer-area .container{
+  border-top: 2px solid #cbc9c9a1;
+}
+.world-selacet-menu {
+  margin-top: 20px;
+}
+.footer-payment ul {
+  display: flex;
+  gap: 10px;
+  justify-content: end;
+}
+.row.wrepper-footer {
+  align-items: center;
+}
+.footer-payment{
+  margin-top: 25px;
+}
+.footer-copyright-body {
+  margin-top: 10px;
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+}
+/* ///////////////////WREPPPER FOOTER AREA END///////// */
+
+
+
+
+
+
+
  /*====================================================================================================
                                              STYLE.CSS CODE END
  ====================================================================================================*/
@@ -3283,6 +3389,27 @@ section.main-get-touch-area{
 }
 .modal-dialog{
   max-width: 99% !important;
+}
+.row.wrepper-footer{
+  flex-direction: column;
+  justify-content: center;
+}
+.world-selacet-menu{
+  display: flex;
+  justify-content: center;
+}
+.footer-payment{
+  display: flex;
+  justify-content: center;
+}
+.footer-copyright-body{
+  justify-content: center;
+}
+/* .dropdown-content{
+  margin-top: 165px;
+} */
+.dropdown-content.footer-active{
+  top: 55px;
 }
 }
 

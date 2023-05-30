@@ -213,12 +213,19 @@ $(window).on('load', function() {
 })
 
 
-
-
   $(".user-header-dropdown-icon").click(function(){
     $(".dropdown-menu-area").toggleClass("active");
   });   
 
+
+  function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+
+
+  $(".world-selacet-menu").click(function(){
+    $(".dropdown-content").toggleClass("footer-active");
+  });   
 /* ==========/////////=============
            PRELODAR END
 ============//////////============== */
